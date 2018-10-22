@@ -5,3 +5,4 @@ This module activate many features that's deliberately disabled by Xiaomi even t
 2. Activate the [Full screen gestures] & disable the hardware capacitive keys.
 3. All camera sounds will be disabled.
 4. Replace system emoji font with latest Android Pie's emoji.
+5. Enable ANT+ capability (thanks to: Paoiw from XDA Devs/MIUI Forum).
