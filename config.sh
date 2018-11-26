@@ -60,6 +60,7 @@ REPLACE="
 /system/etc/xtwifi.conf
 /system/usr/keylayout/synaptics_dsx.kl
 /system/fonts/NotoColorEmoji.ttf
+/system/vendor/lib64/libbt-vendor.so
 "
 
 ##########################################################################################
