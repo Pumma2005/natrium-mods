@@ -53,13 +53,16 @@ print_modname() {
 # Check the documentations for more info about how Magic Mount works, and why you need this
 
 REPLACE="
+/system/bin/busybox
 /system/etc/device_features/natrium.xml
 /system/etc/gps.conf
 /system/etc/izat.conf
 /system/etc/lowi.conf
 /system/etc/xtwifi.conf
-/system/usr/keylayout/synaptics_dsx.kl
 /system/fonts/NotoColorEmoji.ttf
+/system/media/audio/ui/camera_click.ogg
+/system/media/audio/ui/camera_focus.ogg
+/system/usr/keylayout/synaptics_dsx.kl
 /system/vendor/lib64/libbt-vendor.so
 "
 
