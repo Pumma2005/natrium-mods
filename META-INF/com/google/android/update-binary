@@ -1,12 +1,4 @@
 #!/sbin/sh
-# Detect device
-if ro.product.name | grep -iq natrium; then
-  ui_print "natrium detected!"
-else
-  # If device not matched, abort it.
-  abort "This module for natrium only!"
-fi
-
 ##########################################################################################
 #
 # Magisk Module Template Install Script
@@ -53,6 +45,14 @@ elif [ -f /data/magisk/util_functions.sh ]; then
   . /data/magisk/util_functions.sh
 else
   require_new_magisk
+fi
+
+# Detect device
+if ro.product.name | grep -iq natrium; then
+  ui_print "natrium detected!"
+else
+  # If device not matched, abort it.
+  abort "This module for natrium only!"
 fi
 
 # Use alternative image if in BOOTMODE
