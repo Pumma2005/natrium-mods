@@ -1,4 +1,12 @@
 #!/sbin/sh
+# Detect device
+if ro.product.name | grep -iq natrium; then
+  ui_print "natrium detected!"
+else
+  # If device not matched, abort it.
+  abort "This module for natrium only!"
+fi
+
 ##########################################################################################
 #
 # Magisk Module Template Install Script
