@@ -6,6 +6,5 @@ This module activate many features that's deliberately disabled by Xiaomi even t
 2. Activate the [Full screen gestures] & disable the hardware capacitive keys.
 3. All camera sounds will be disabled.
 4. Replace system emoji font with latest Android Pie's emoji.
-5. Add busybox non-symlink for better compatibility with ROM's toybox.
-6. GPS & iZat configs fix.
-7. Enable ANT+ capability (thanks to: Paoiw from XDA Devs/MIUI Forum).
+5. GPS & iZat configs fix.
+6. Enable ANT+ capability (thanks to: Paoiw from XDA Devs/MIUI Forum).

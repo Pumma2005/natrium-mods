@@ -53,7 +53,6 @@ print_modname() {
 # Check the documentations for more info about how Magic Mount works, and why you need this
 
 REPLACE="
-/system/bin/busybox
 /system/etc/device_features/natrium.xml
 /system/etc/gps.conf
 /system/etc/izat.conf
@@ -76,7 +75,6 @@ set_permissions() {
   # The default permissions should be good enough for most cases
 
   set_perm_recursive  $MODPATH  0  0  0755  0644
-  set_perm	$MODPATH/system/bin/busybox				0	0	0755
   set_perm	$MODPATH/system/vendor/bin/xtra-daemon	0	0	0755
 }
 
