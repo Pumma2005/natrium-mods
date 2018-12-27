@@ -54,16 +54,10 @@ print_modname() {
 
 REPLACE="
 /system/etc/device_features/natrium.xml
-/system/etc/gps.conf
-/system/etc/izat.conf
-/system/etc/lowi.conf
-/system/etc/xtwifi.conf
 /system/fonts/NotoColorEmoji.ttf
 /system/media/audio/ui/camera_click.ogg
 /system/media/audio/ui/camera_focus.ogg
 /system/usr/keylayout/synaptics_dsx.kl
-/system/vendor/bin/xtra-daemon
-/system/vendor/lib64/libbt-vendor.so
 "
 
 ##########################################################################################
@@ -75,7 +69,6 @@ set_permissions() {
   # The default permissions should be good enough for most cases
 
   set_perm_recursive  $MODPATH  0  0  0755  0644
-  set_perm	$MODPATH/system/vendor/bin/xtra-daemon	0	0	0755
 }
 
 ##########################################################################################
